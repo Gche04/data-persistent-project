@@ -374,6 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76be13f91f4380c46ab77e25541ea6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  playerName: {fileID: 1765873230}
+  bestScore: {fileID: 2070383461}
 --- !u!1 &486472917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Enter Name...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1725,6 +1727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b40852ec32bd64dab54337d02922c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PersistenceManager
+  playerName: 
+  nameOfPlayerWithBestScore: 
+  highestScore: 0
 --- !u!4 &2112686835
 Transform:
   m_ObjectHideFlags: 0
